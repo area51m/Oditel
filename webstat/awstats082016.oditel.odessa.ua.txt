@@ -1,0 +1,845 @@
+AWSTATS DATA FILE 7.1 (build 1.983)
+# If you remove this file, all statistics for date 201608 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.oditel.odessa.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1996                
+POS_TIME 2663                
+POS_VISITOR 20790               
+POS_DAY 28483               
+POS_DOMAIN 3555                
+POS_LOGIN 3789                
+POS_ROBOT 3944                
+POS_WORMS 4803                
+POS_EMAILSENDER 4934                
+POS_EMAILRECEIVER 5077                
+POS_SESSION 29291               
+POS_SIDER 29500               
+POS_FILETYPES 5212                
+POS_DOWNLOADS 5467                
+POS_OS 5635                
+POS_BROWSER 5897                
+POS_SCREENSIZE 7436                
+POS_UNKNOWNREFERER 7510                
+POS_UNKNOWNREFERERBROWSER 7891                
+POS_ORIGIN 8158                
+POS_SEREFERRALS 8301                
+POS_PAGEREFS 8469                
+POS_SEARCHWORDS 10429               
+POS_KEYWORDS 10657               
+POS_MISC 2327                
+POS_ERRORS 10794               
+POS_CLUSTER 3645                
+POS_SIDER_404 10918               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160829184552 262 71842 11823940989039
+FirstTime 0
+LastTime 20160829184451
+LastUpdate 20160829190117 15 0 15 0 0
+TotalVisits 266                 
+TotalUnique 183                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 193                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 42 544595 78 186 1658434
+1 11 62 7971569 68 177 1847688
+2 16 16 591782 59 108 1307637
+3 10 10 328391 55 138 1189490
+4 5 5 191348 62 136 3541488
+5 11 19 476539 56 102 3344147
+6 5 77 1313170 43 82 1029453
+7 6 30 199462 55 113 4168993
+8 38 183 3494637 60 98 1209187
+9 24 194 6157716 52 173 1900537
+10 32 330 7331039 68 167 2172745
+11 86 454 23169179 79 199 4376738
+12 92 436 9564742 93 196 3682919
+13 212 433 9096866 81 187 6482362
+14 66 237 4259557 64 193 1736143
+15 38 126 2712005 47 151 1658352
+16 80 299 23024052 73 218 1415570
+17 107 404 14683022 77 174 1709459
+18 31 116 5071948 74 163 1730143
+19 94 444 7790395 44 132 1076097
+20 37 299 3583520 38 120 1071498
+21 17 116 3176566 38 96 802639
+22 18 103 1865819 72 149 1570431
+23 16 133 5603125 85 128 1402350
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1063 4568 140642572
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+googlebot 484 24166865 20160829172702 44
+bingbot 296 7546405 20160829101651 57
+baiduspider 147 4464489 20160829183602 2
+yandex 118 4681036 20160829020321 43
+robot 89 3949979 20160829082722 22
+slurp 62 1057564 20160828225747 39
+exabot 45 1056849 20160828051259 20
+mail\.ru 43 3311 20160822045837 43
+unknown 36 2772 20160828031943 36
+bot[\s_+:,\.\;\/\\-] 30 254526 20160827074924 17
+commons\-httpclient 1 36456 20160807100823 0
+no_user_agent 4 81657 20160821130110 2
+spider 12 436868 20160829070725 2
+curl 2 82379 20160817112310 0
+surveybot 2 45549 20160816110700 1
+favicon 14 573574 20160829115831 0
+discovery 1 0 20160821123732 0
+aspider 9 129230 20160807180244 2
+mj12bot 3 231 20160823191211 3
+crawl 8 49731 20160824131412 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 358 1866533 0 0
+png 339 559572 0 0
+pdf 3 1292828 0 0
+html 1054 23758040 0 0
+rar 26 50512002 0 0
+tif 6 1350 0 0
+js 846 13484280 0 0
+jpg 1829 49075082 0 0
+xml 3 2014 0 0
+gif 104 90871 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/price/LEGRAND.rar 20 4 17193132
+/certificate/Oditel_License.pdf 6 0 3878484
+/price/Valena-LIFE-ALLURE.rar 6 0 33318870
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+amigaos 1 1
+linuxandroid 1133 394
+winlong 70 22
+winxp 462 62
+win2000 30 2
+winnt 385 42
+winvista 127 16
+linux 112 22
+win7 2195 458
+macosx 14 10
+winunknown 9 9
+win2003 8 8
+Unknown 10 9
+macosx8 16 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 72
+msie6.0 9 9
+chrome44.0.2403.125 1 1
+chrome52.0.2743.116 1259 122
+chrome50.0.2661.89 50 3
+firefox3.8 1 1
+chrome34.0.1847.137 1 1
+firefox44.0 1 1
+chrome49.0.2623.110 26 2
+firefox2.0.0.1 2 2
+firefox4.0 3 3
+firefox18.0 2 2
+chrome31.0.1650.57 25 1
+chrome23.0.1271.95 1 1
+msie8.0 2 2
+chrome51.0.2704.81 25 1
+chrome42.0.2311.90 11 7
+firefox43.0 22 22
+msie7.0 6 6
+firefox40.1 9 9
+chrome50.0.2661.102 6 6
+chrome37.0.2062.120 1 1
+firefox41.0 3 3
+chrome42.0.2311.152 3 3
+chrome49.0.2623.112 264 39
+firefox1.5.0.7 1 1
+chrome45.0.2454.99 2 2
+firefox48.0 61 4
+firefox40.0 1 1
+chrome37.0.2049.0 1 1
+chrome49.0.2623.75 3 3
+firefox47.0 406 37
+chrome51.0.2704.103 412 203
+firefox3.5.5 7 7
+chrome47.0.2526.106 2 2
+mozilla 217 23
+firefox14.0.1 7 7
+chrome46.0.2486.0 25 1
+chrome52.0.2743.98 948 378
+chrome46.0.2490.86 2 2
+chrome2.0.172.30 7 7
+chrome41.0.2228.0 1 1
+chrome44.0.2403.133 85 11
+chrome38.0.2160.38 1 1
+chrome23.0.1271.64 1 1
+chrome24.0.1309.0 15 7
+chrome43.0.2357.124 1 1
+android 25 1
+chrome43.0.2327.5 4 4
+chrome48.0.2564.116 3 3
+chrome47.5.2526.111 25 1
+chrome28.0.1500.95 6 6
+opera9.80 28 4
+firefox31.0 1 1
+chrome15.0.874.121 1 1
+chrome47.0.2526.111 5 5
+firefox16.0 1 1
+chrome10.0.648.204 6 6
+msie5.0 3 3
+msie9.0 4 0
+Unknown 12 11
+chrome41.0.2272.118 5 5
+chrome52.0.2743.82 240 20
+chrome45.0.2454.101 3 3
+chrome19.0.1084.5409 1 1
+chrome51.0.2704.106 164 20
+chrome48.0.2564.109 2 2
+msie10.0 15 8
+chrome25.0.1364.172 50 2
+seamonkey 1 1
+chrome39.0.2171.99 1 1
+firebird 1 1
+chrome48.0.2564.97 26 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Qwantify/2.2w;__https://www.qwant.com/)/* 20160813071657
+DowntimeDetector/1.0_(_http://downforeveryoneorjustme.com) 20160805001920
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20160805143710
+ltx71_-_(http://ltx71.com/) 20160823011030
+<a_href=\ 20160805025519
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Microsoft_Office_Excel_2013 20160829130239
+DowntimeDetector/1.0_(_http://downforeveryoneorjustme.com) 20160805001920
+ltx71_-_(http://ltx71.com/) 20160823011030
+<a_href=\ 20160805025519
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 189 195
+From1 4 4
+From2 33 39
+From3 41 41
+From4 796 4293
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 28 34
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 21
+http://mail.ru 6 6
+http://dkc.kiev.ua/ru/where_to_buy/ 5 5
+http://yandex.ua/clck/jsredir 4 4
+http://www.dkc.kiev.ua/ru/where_to_buy/ 4 4
+http://www.legrand.ru/where/distributors/odessa/ 3 3
+http://link.2gis.ru/FCBAB02B/grym/20160801/odessa/7007d00000d1d 3 3
+http://megatrade.ua/partnerrequest/gde-kupit/ 2 2
+http://link.2gis.ru/1.2/171BF2C2/online/20160801/project14/1970853117956890/2gis.ru/Bdd7Abc24A0606BB2H9CAHJ7I1I184g2A2gG4p8p3GI19A396G3I49A2y3944G63I7G1G161289685C443I3f2uvfEp641J162AAAACCA44509716g/sid=1e597a36-fdd2-4b0a-8a0c-d7311f074437&user=6dcfdb83-08a9-48c4-8a49-765db40eaba2&ts=1470303533309 1 1
+http://pizza-imperia.com 1 1
+http://link.2gis.ru/1.2/0C39EE62/webapi/20160801/project14/1970853117956890/gisvid.ru/9iic5c95G44884247A278G2Gt58d1r68G4G5G7I4G247G3H2lyky881I4402G1B70B0C8365ge93uv242623669B3IA817762H4J1G2hg 1 1
+http://telecom.natec.ua/Company/dealers_list.aspx 1 1
+http://link.2gis.ru/5A20CA1D/grymmobile/20160701/odessa/7007d00000d1d 1 1
+http://legrand.ru/where/distributors/odessa/ 1 1
+http://www.dkc.kiev.ua/uk/where_to_buy/ 1 1
+http://link.2gis.ru/C228AEA3/grym/20160701/odessa/7007d00000d1d 1 1
+http://runetki.com/660914 1 1
+http://oditel-bh.odessa-gid.info 1 1
+http://en.spravochnik.biz/firm/url.php 1 1
+http://\xea\xe8\xed\xee-\xed\xe0-\xe4\xe8\xe2\xe0\xed\xe5.\xf0\xf4 1 1
+http://link.2gis.ru/1.2/171BF2C2/online/20160801/project14/1970853117956890/2gis.ru/iAdA9c87G44884247AB8G2G1g6gc9144G6G5G9I2G2BH0J2AfEpy399I380AG1B70B99292352e4uv060763669B3I815781H5G3H0A2/sid=b5c866b1-8049-4151-b896-bce0ee7a220f&user=782424a5-2e90-42f9-b017-ca5345ee5f81&ts=1470304628770 1 1
+http://ua.kompass.com/c/%D0%BE%D1%84%D0%B8%D1%81-%D0%B4%D0%BE%D0%BC-%D0%B8-%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8-oditel-%D0%BE%D0%BE%D0%BE/ua160682/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb+%d0%be%d0%b4%d0%b5%d1%81%d1%81%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb 1
+%d0%be%d0%b4%d0%b5%d1%81%d1%81%d0%b0 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 26 0
+206 21 347443
+301 2 650
+404 1490 456045
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 221
+/wordpress/ 6 -
+/admin.php 4 -
+/templates/Oditel/images/header/od_03.jpg 2 -
+/file/Panduit_24_05_12.xls 6 -
+/2016/06/ 1 -
+/file/simon_oct2011.xls 12 -
+/file/ATEN_03_2010.xls 1 -
+/file/satel_logo.jpg 1 -
+http://www.oditel.odessa.ua/file/P3135165.JPG 3 http://go.mail.ru/search_images
+/ultrabooks/asus/item/asus-zenbook-prime-ux31a-r5006h 1 -
+/software/antivirus/category/agnitum 1 -
+/file/Cimabox_3_10.xls 3 -
+/file/LEGRAND_v.18.03.2013.xlsx 2 -
+http://www.oditel.odessa.ua/file/rar.jpg 9 http://go.mail.ru/search_images
+/joomla/robots.txt 1 -
+/file/electronmash_logo.gif 1 -
+http://www.oditel.odessa.ua/file/P3145168.JPG 3 http://go.mail.ru/search_images
+/tags/%EF%EE/ 1 -
+/file/Panasonic_Security_03_10.xls 15 -
+/file/toa_logo.jpg 1 -
+/file/%C3%90%E2%80%A2%C3%90%C2%B2%C3%91%E2%82%AC%C3%90%C2%BE%C3%91%E2%80%9E%C3%90%C2%BE%C3%91%E2%82%AC%C3%90%C2%BC%C3%90%C2%B0%C3%91%E2%80%9A01112010.xls 1 -
+/file/RAD_GPL_05_10.xls 34 -
+/certificate/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA_%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D0%B8_2016.jpg 5 -
+/xmlrpc.php 6 -
+/uploads/posts/2009-03/1238409504_logos.jpg 1 -
+/file/R%26M.jpg 1 -
+/file/Price_OK_NET_01_02_11.xls 4 -
+/templates/Oditel/images/content/left/od_16.jpg 5 -
+/software/microsoft/item/windows-server-standard-2008 1 -
+/%23 3 -
+http://www.oditel.odessa.ua/uploads/posts/2009-03/1238352379_image012.gif 3 http://go.mail.ru/search_images
+/sale/used/periphery/item/lg-l1732s-sf 1 -
+/file/Allied_2010_08_01.xls 17 -
+/file/AMP_06_10.XLS 2 -
+/file/SiemensLogo.JPG 1 -
+/software/microsoft/item/windows-10-professional 1 -
+/file/Siemens%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B8%D1%8F_07_10.xls 9 -
+/file/Price-list_Cablofil_October_2010.xls 6 -
+/ultrabooks/hp/item/hp-envy-spectre-xt-13-2000er 1 -
+/file/dect_euroset_03_10.xls 1 -
+http://www.oditel.odessa.ua/file/ElectroIm3.jpg 3 http://go.mail.ru/search_images
+/software/antivirus/item/firewall-pro 1 -
+http://www.oditel.odessa.ua/file/Shkaff.JPG 6 http://go.mail.ru/search_images
+/file/Allied_%EE%80%802010%EE%80%81_08_01.xls 1 -
+/file/zyxel_logo.jpg 2 -
+/file/ODITEL_%D1%81%D0%BA%D0%BB%D0%B0%D0%B4_Siemens.xls 8 -
+/engine/modules/avatar.class.php 2 -
+/templates/Oditel/css/main.css 3 -
+http://www.oditel.odessa.ua/templates/Oditel/images/content/left/od_16.jpg 3 http://go.mail.ru/search_images
+/file/skyd_picture.JPG 4 -
+/i 1 -
+/file/Bosch_Logo.jpg 1 -
+/files/contracts/vps/vps-jur.pdf 1 -
+/file/%D0%95%D0%B2%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%8201112010.xls 8 http://yandex.ru/clck/jsredir
+/administrator/ 5 -
+/file/ 3 -
+/file/Price-list_Vinet_December_2009.xls 2 -
+/file/LEGRAND_22_06_%EE%80%802011%EE%80%81.xls 1 -
+/joomla/administrator/index.php 1 -
+/ultrabooks/asus 1 -
+/wp-login.php 109 -
+/file/Byklet%20ODITEL%202010.pdf 6 -
+/file/panasonic_security_03_10.xls 1 -
+/user/oditel/ 1 -
+/file/ups_batt_03_2010.xls 2 -
+/software/graphics/item/cs6-indesign 1 -
+/software/microsoft/item/office-2010-olp 1 -
+/file/cisco%20Logo.jpg 1 -
+/file/Panduit_Assmann_03_10.xls 1 -
+http://www.oditel.odessa.ua/uploads/posts/2009-03/1238354278_image007.png 3 http://go.mail.ru/search_images
+/uploads/posts/2009-03/1238409192_logos.jpg 1 -
+/software/graphics/item/paintshop-pro-x6 1 -
+/language/en-GB/en-GB.xml 2 -
+/certificate/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_2016.jpg 9 -
+/software/antivirus/item/zillya-internet-security 1 -
+/sale/used/computers/item/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80-amd-sempron-16ghzhdd40gb512gbram 1 -
+/news 1 -
+/file/ZyXEL_03_10.xls 3 -
+/js/mage/cookies.js 2 oditel.odessa.ua
+http://www.oditel.odessa.ua/uploads/posts/2009-03/1238409192_logos.jpg 9 http://go.mail.ru/search_images
+/license.php 5 http://oditel.odessa.ua/license.php
+/blog/administrator/index.php 1 -
+/engine/opensearch.php 3 -
+/engine/rss.php 7 -
+/file/ODITEL_AMP_price_21_06_2012.xls 3 -
+/administrator/index.php 1 -
+/domains/documents 1 -
+/tags/%ED%EE%E2%EE%F1%F2%E8/ 1 -
+/configuration.php~ 1 http://www.oditel.odessa.ua/configuration.php~
+/ultrabooks/item/sony-vaio-svs1312m9rbru3 1 -
+/file/Price_OK_NET_11_10.xls 2 -
+/file/Price_OK_NET_Odescabel_02_10.xls 2 -
+/file/Axis_05_10.xlsx 12 -
+/domains/transfer 1 -
+/about 1 -
+/ultrabooks/asus/item/asus-s56cm-xx231h 1 -
+/file/AMP_11_10.XLS 1 -
+http://www.oditel.odessa.ua/file/ElectroIm4.JPG 6 http://go.mail.ru/search_images
+/statistics.html 1 -
+/ultrabooks/asus/item/asus-zenbook-prime-ux31a-r4004h 1 -
+/file/%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B0%D0%BD%D0%BA%D0%B5%D1%82%D0%B0.doc 6 -
+/file/Price-list_Vinet_March_2010.xls 2 -
+/uploads/posts/2009-03/1238408529_logos.jpg 2 -
+/file/Price-list_Cablofil_June_2010.xls 2 -
+/file/Panduit.jpg 1 -
+/file/Price-list_AMP_January_2010.xls 1 -
+/uploads/posts/2009-03/1238408549_image008.png 2 -
+/file/Axis_03_10.xls 1 -
+/robots.txt 63 -
+/cgi-bin/openwebmail/openwebmail.pl/ 2 -
+/software/microsoft/item/windows-10 1 -
+/main/2-post2.html 1 -
+/file/Price-list_November_2011.xls 14 http://yandex.ru/clck/jsredir
+http://www.oditel.odessa.ua/templates/Oditel/images/header/od_01.jpg 3 http://go.mail.ru/search_images
+/file/ups_Eaton(Powerware)_09_10.xls 1 -
+http://oditel.odessa.ua/uploads/posts/2009-03/1238408529_logos.jpg 12 http://go.mail.ru/search_images
+/file/Price-list_Tyco_active_January_2010.xls 3 -
+/file/Price-list_Conteg_January_2010.xls 1 -
+/sale/used/components/item/pqi-256-mb 1 -
+/software/antivirus/item/small-business 1 -
+/file/Price-list_Conteg_08_2010.xls 3 -
+/sale/used/components/item/amd-sempron-64-2500 1 -
+/sale/used/periphery/item/genius-k-639 1 -
+/file/hp_logo.jpg 1 -
+/ultrabooks/item/samsung-np530u3c-a0fru 1 -
+/ultrabooks/item/sony-vaio-svd1121p2rbru3 1 -
+/ultrabooks/item/samsung-np900x4d-a02ru 1 -
+/file/Shkaff.JPG 6 -
+/file/P3145168.JPG 1 -
+/file/Legrand%2005.04.2011.xls 2 -
+/file/jedia_logo.gif 1 -
+/file/Price-list_Schroff_February_2010.xls 1 -
+/file/D-link_03_10.xls 4 -
+/file/RAD_GPL_03_10.xls 17 -
+/software/microsoft/item/office-2010-ppr 1 -
+/file/ozvy4ka2.JPG 2 -
+/main/ 1 -
+/sale/used/components/item/sony-ad-5170-a 1 -
+/file/d-link_10_10.xls 1 -
+/file/legrand_02.04.2012.xlsx 1 -
+/ultrabooks/item/samsung-np530u3c-a0dru 1 -
+/file/LegrandLogo.JPG 1 -
+/file/Allied_03_10.xls 2 -
+/file/LegrandSCScert.jpg 4 -
+/software/graphics/item/cs6-design-standard 1 -
+/file 2 -
+http://www.oditel.odessa.ua/file/P3145170.JPG 6 http://go.mail.ru/search_images
+/file/gewiss%20price%2005.02.2010.xls 9 -
+/uploads/posts/2009-03/1238354195_image005.png 1 -
+/2016/07/28/ 1 -
+http://oditel.odessa.ua/templates/Oditel/images/header/od_04.jpg 12 http://go.mail.ru/search_images
+/file/LEGRAND%20%D0%9F%D1%80%D0%B0%D0%B9%D1%81-%D0%BB%D0%B8%D1%81%D1%82%20v.05.06.2015.xlsx 9 -
+/ultrabooks/asus/item/asus-zenbook-ux32a-r3001h 1 -
+/file/DECT_EUROSET_03_10.xls 1 -
+/uploads/posts/2009-03/1238409709_images.jpg 2 -
+/file/price-list_november_2011.xls 9 -
+/file/Galmar.gif 4 -
+/file/LEGRAND%20%CF%F0%E0%E9%F1-%EB%E8%F1%F2%20v.05.06.2015.xlsx 1 -
+/a 1 -
+/file/ElectroIm3.jpg 1 -
+/ultrabooks 1 -
+/main/1-post1.html 1 -
+/file/ATEN_Q2-2011.xls 5 -
+/faq 3 -
+/rules.html 1 -
+/file/xls.jpg 1 -
+/main/3-post4.html 1 -
+/file/P3135165.JPG 1 -
+/file/SchniderLogo.JPG 1 -
+/file/LEGRAND%20%CF%F0%E0%E9%F1-%EB%E8%F1%F2%20%D3%CA%D0%C0%C8%CD%C0%20v.24.02.2014.xlsx 2 -
+/software/graphics/item/graphics-suite-x6 1 -
+/engine/download.php 5 -
+/file/D-Link_10_10.xls 15 -
+/blog/ 6 -
+/templates/Oditel/images/header/od_04.jpg 4 -
+/ultrabooks/item/sony-vaio-svs1311e3rwru3 1 -
+/file/Siemens%C3%90%C2%A2%C3%90%C2%B5%C3%90%C2%BB%C3%90%C2%B5%C3%91%E2%80%9E%C3%90%C2%BE%C3%90%C2%BD%C3%90%C2%B8%C3%91%C2%8F_07_10.xls 1 -
+/certificate/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82_Legrand_2016.jpg 5 -
+/.svn/text-base/wp-config.php.svn-base 1 -
+/wp/ 6 -
+/file/Legrand2013.jpg 3 -
+/file/Price-list_Cablofi_January_2010.xls 2 -
+/file/ElectroIm4.JPG 2 -
+/sale/used/components/item/intel-celeron-2-0-ghz 1 -
+/modules/productpageadverts/uploadimage.php 2 http://www.oditel.odessa.ua/modules/productpageadverts/uploadimage.php
+/templates/Oditel/css/engine.css 3 -
+/file/Price-list_FLEXEL_October_2010.xls 6 https://www.google.ru
+/readme.php 1 http://www.googlebot.com/bot.html
+/ultrabooks/dell/item/dell-xps-13-210-80300slv 1 -
+/file/RittalLogo.JPG 1 -
+/sale/low-price/network 1 -
+/ultrabooks/hp/item/hp-envy-6-1151er 1 -
+/sale/used/components/item/amd-athlon-64-3000 1 -
+http://www.oditel.odessa.ua/templates/Oditel/images/header/od_03.jpg 3 http://go.mail.ru/search_images
+/blog/robots.txt 7 -
+/file/LEGRAND%20%D0%9F%D1%80%D0%B0%D0%B9%D1%81-%D0%BB%D0%B8%D1%81%D1%82%20%D0%A3%D0%9A%D0%A0%D0%90%D0%98%D0%9D%D0%90%20v.24.02.2014.xlsx 3 -
+/file/DLink_Logo.jpg 1 -
+/file/rad_gpl_05_10.xls 13 -
+/file/DLinkLogo.gif 246 -
+/file/3comlogo.jpg 1 -
+/ultrabooks/item/samsung-np900x3d 1 -
+/file/Molex_Price_P_31_07_2012.xlsx 5 -
+/file/ATEN_Q4-10_10.xls 3 -
+/file/LEGRAND_02.04.2012.xlsx 19 -
+/file/Price_OK_NET_Odescabel_11_09.xls 1 -
+/templates/Oditel/images/header/od_01.jpg 3 -
+/software/microsoft/item/windows-10-professional-copy 1 -
+/software/antivirus/item/security-suite-pro 1 -
+/2016/07/ 1 -
+/file/simon_price_01.07.2012.xls 31 -
+/file/Price-list_Schroff_April_2010.xls 5 -
+/index.php 324 -
+http://www.oditel.odessa.ua/index.php 2 http://cop.su
+/sale/low-price/laptops 1 -
+/favicon.png 2 -
+/file/GEWISS%20Price%2005.02.2010.xls 33 https://www.google.com.ua/
+/file/%EE%80%80RAD%EE%80%81_GPL_05_10.xls 1 -
+/uploads/posts/2009-03/1238352379_image012.gif 1 -
+/file/Price-list_Vinet_October_2010.xls 12 http://yandex.ru/clck/jsredir
+/joomla.xml 2 -
+/file/Gewiss_11_09.xls 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 193
+78.26.162.40 346 634 8461790 20160827193112
+46.149.48.97 78 727 5497515 20160827231352
+46.133.244.170 73 159 2528309 20160823171453
+46.133.106.104 57 124 3357357 20160826203416
+46.133.240.84 40 167 1571508 20160829092337
+178.136.56.24 35 185 10675971 20160829135426
+46.133.8.19 25 30 337783 20160822145532
+94.244.30.61 22 22 747726 20160829025228
+93.88.60.254 13 37 801531 20160805164304
+46.133.81.121 8 8 97772 20160829184451 20160829181140 /webmail/
+46.188.60.145 1 25 648396 20160827181434
+61.242.42.205 2 26 649660 20160808122159
+195.211.39.33 1 1 1007 20160805151959
+158.69.244.40 1 1 36031 20160804043654
+107.150.85.22 1 1 45472 20160811192939
+93.88.51.147 3 28 713775 20160817104055
+217.69.133.169 2 2 90944 20160825034316
+212.47.249.178 1 1 45472 20160824215210
+84.234.52.120 1 25 648396 20160826094938
+185.9.42.34 1 25 638391 20160808100540
+40.127.101.135 1 1 45472 20160826181636
+62.221.70.154 7 7 129078 20160810132357
+52.88.214.133 1 1 45472 20160823230416
+128.75.224.122 1 8 164485 20160827171401
+62.16.3.147 1 25 648396 20160828175534
+66.249.81.206 1 1 36031 20160805134539
+85.140.6.174 1 1 45472 20160816114640
+193.8.201.1 3 28 1440057 20160801123112
+62.244.42.30 1 1 36907 20160809041330
+78.26.186.58 6 30 694106 20160810175311
+198.240.75.155 1 1 45472 20160812003753
+85.238.101.61 1 25 648396 20160817154611
+178.93.200.202 2 26 648359 20160802115300
+46.211.153.149 1 25 648396 20160812120522
+66.102.9.91 0 9 1675181 
+193.201.225.48 1 1 45472 20160817212746
+180.153.180.115 0 1 72174 
+183.83.51.217 1 1 45472 20160821153645
+193.151.59.151 3 28 688952 20160826155155
+31.202.205.184 3 28 668606 20160823150039
+83.143.236.108 2 27 668606 20160811135706
+192.99.147.201 1 1 45472 20160827015651
+79.142.196.139 2 28 2210946 20160802213150
+134.249.51.75 1 1 45472 20160820021743
+85.238.102.236 1 25 637515 20160804165116
+178.43.108.90 2 2 36031 20160803104152
+92.113.34.229 3 3 136416 20160815122952
+193.178.233.3 8 68 662230 20160805103446
+78.162.58.156 1 1 36456 20160807151446
+144.76.119.75 4 4 144549 20160806185457
+208.117.11.6 1 1 36031 20160805001918
+66.102.9.101 0 14 1086535 
+89.234.157.254 1 1 36031 20160804150532
+82.38.48.176 1 1 45472 20160825081509
+195.138.88.195 1 25 637515 20160804123914
+52.27.46.174 2 2 72938 20160810052951
+91.242.193.1 3 75 1923426 20160812011338
+1.22.145.201 1 1 45472 20160818231244
+93.88.56.36 7 32 795692 20160823165750
+217.66.100.12 0 4 236266 
+176.77.106.199 1 25 637515 20160801190748
+180.153.185.225 0 1 6099 
+80.90.230.18 4 29 712305 20160811115026
+54.84.162.105 1 1 36031 20160805001920
+109.86.72.163 2 2 72912 20160806013744
+195.211.38.215 1 1 0 20160805151958
+208.86.199.8 1 1 45472 20160821145641
+85.238.96.130 3 3 91046 20160811000322
+195.211.37.50 1 1 0 20160805151959
+80.254.2.170 1 25 637515 20160802173919
+109.174.112.183 2 26 648330 20160806105253
+164.132.51.91 1 1 36031 20160803101043
+194.44.168.173 4 4 147628 20160810175003
+69.58.178.59 7 7 191975 20160811123236
+199.166.26.83 1 1 36456 20160805222034
+62.221.67.254 2 27 668606 20160817174607
+141.130.250.156 4 28 648359 20160803100628
+176.119.71.153 2 27 669535 20160815230711
+103.229.86.226 1 1 45472 20160812172324
+213.231.44.234 1 25 637515 20160802065249
+93.88.54.154 6 30 82445 20160807172539
+178.136.198.144 6 31 775346 20160826172028
+134.249.116.78 1 1 45472 20160815013441
+46.211.249.182 1 1 0 20160814195524
+192.227.203.164 1 1 36031 20160805001915
+91.219.170.155 4 28 696957 20160810150820
+66.249.88.52 1 18 128513 20160803062024
+178.137.164.171 1 1 36907 20160809005020
+52.67.113.219 1 1 36031 20160804150533
+46.188.39.76 1 1 36031 20160802210509
+66.249.88.63 1 20 330502 20160803062012
+66.249.81.212 1 1 36031 20160805134539
+212.15.150.207 8 32 737099 20160801094219
+31.184.238.125 7 7 128625 20160806083714
+79.143.33.90 2 27 669535 20160818162607
+194.44.123.110 3 29 1495811 20160826093803
+195.138.82.242 2 30 2230893 20160825130641
+46.36.218.44 1 1 45472 20160812122246
+80.82.64.139 1 1 36031 20160804150532
+62.210.94.38 6 6 236820 20160823052337
+213.227.214.56 0 1 2171640 
+52.3.127.144 3 4 90351 20160823011030
+202.28.10.20 2 2 90944 20160824011725
+195.138.90.139 2 26 648359 20160804102832
+93.73.25.43 2 26 648359 20160802121010
+31.184.236.65 3 3 136416 20160827180033
+95.221.235.72 1 25 637515 20160802172643
+91.195.90.69 2 26 672416 20160811132854
+182.118.53.85 0 1 8443 
+52.88.254.54 1 1 45472 20160827120324
+91.235.182.1 3 7 90236 20160803145156
+178.120.81.68 2 49 1276656 20160807183118
+62.212.73.49 1 1 36456 20160806072238
+62.16.28.82 1 25 648396 20160818201904
+181.231.109.21 1 1 45472 20160817032230
+46.101.249.238 1 1 36031 20160804150531
+84.199.88.66 1 25 648396 20160816143221
+78.111.215.3 1 25 638391 20160810101246
+178.136.212.112 1 25 637515 20160804125744
+195.238.191.190 3 36 7161507 20160823013003
+95.67.77.54 4 29 718014 20160829130343
+133.130.111.38 7 11 9344907 20160828165913
+163.172.143.114 1 1 36031 20160803113135
+37.73.231.0 1 25 0 20160803073450
+37.73.165.0 3 32 13358708 20160818111305
+195.211.36.239 1 1 0 20160805151958
+198.240.76.133 1 1 45472 20160825225312
+195.211.36.179 1 1 0 20160805151959
+5.255.253.2 1 1 36456 20160805164317
+61.6.236.252 1 1 45472 20160814205659
+95.67.103.2 2 27 672542 20160826153708
+199.166.26.117 1 1 36031 20160803161900
+194.8.56.114 3 28 688952 20160825141648
+178.125.150.138 1 1 45472 20160825192754
+213.130.1.69 1 25 648396 20160815080351
+46.229.170.193 1 1 36031 20160804181536
+213.200.37.124 1 25 648396 20160826224723
+178.123.121.217 1 1 36031 20160802231824
+85.238.96.179 2 28 1450339 20160826095203
+79.140.0.175 5 31 6306370 20160811161241
+66.102.9.111 2 7 252089 20160812234013
+194.44.219.118 1 25 648396 20160817100939
+178.120.218.84 0 1 78141 
+54.197.9.96 1 1 36907 20160808160315
+85.238.102.154 1 25 648396 20160817105751
+5.228.7.31 2 2 72062 20160804221557
+93.123.150.43 0 2 1563466 
+52.207.253.44 1 1 45472 20160827072209
+178.136.89.144 2 50 1286787 20160812172107
+46.229.167.149 3 3 126975 20160822142413
+91.213.8.84 1 1 36031 20160804150531
+178.92.253.123 1 25 648396 20160813120021
+46.211.249.165 4 28 699984 20160809123418
+85.238.102.248 2 27 668606 20160826114707
+178.137.87.242 1 1 36031 20160803164148
+217.77.222.213 6 72 957201 20160801173453
+91.105.184.113 2 2 90944 20160819150434
+79.134.218.10 1 1 36031 20160805025519
+83.24.80.94 2 2 36031 20160804220244
+109.177.22.245 1 1 45472 20160820101154
+194.187.170.105 1 1 45472 20160813071657
+176.119.108.177 1 25 648396 20160827220720
+212.178.23.170 6 42 696244 20160804202510
+54.87.222.140 1 1 45472 20160812152516
+85.238.97.223 4 29 689881 20160822125926
+62.16.9.30 1 13 305109 20160806162027
+46.119.127.129 1 1 45472 20160819054652
+91.121.83.118 1 1 36031 20160803172819
+66.249.93.113 1 1 53 20160805143710
+216.19.213.80 1 1 36031 20160801072839
+94.181.171.36 2 2 90944 20160825015121
+54.174.78.224 1 1 45472 20160813194711
+77.92.158.250 3 3 62021 20160805203543
+54.87.160.194 1 1 45472 20160822152110
+5.167.179.198 1 1 36031 20160801070231
+5.167.190.78 1 1 45472 20160826222449
+195.138.94.103 2 29 428303 20160828101558
+115.195.51.209 3 26 651454 20160802091423
+86.7.255.200 2 27 672542 20160813205450
+109.200.231.215 4 32 3079623 20160816162505
+163.172.165.31 7 15 311781 20160823055422
+89.108.87.148 7 7 115685 20160805151407
+52.87.253.92 1 1 45472 20160811125039
+37.113.38.173 4 4 173323 20160821230950
+212.178.22.58 2 27 669535 20160826132340
+82.166.183.52 3 3 0 20160821123734
+213.231.58.54 2 26 649660 20160808105551
+66.249.88.74 1 12 178500 20160803061952
+202.102.99.79 0 1 2109 
+134.249.143.84 2 28 1450339 20160823204036
+77.231.52.210 1 1 36907 20160808235108
+178.62.7.178 1 1 36031 20160805001918
+194.247.37.13 6 55 1336539 20160823084017
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20160801 27 190 4571068 10
+20160802 23 264 8194781 14
+20160803 31 202 3386974 16
+20160804 21 141 2991259 17
+20160805 229 340 4884192 23
+20160806 15 51 1264344 7
+20160807 9 80 1395557 3
+20160808 10 82 2122246 8
+20160809 31 200 13651613 11
+20160810 52 383 3406959 11
+20160811 25 150 8661730 9
+20160812 12 127 6795291 11
+20160813 7 60 1739092 6
+20160814 3 27 45472 3
+20160815 12 111 2288720 5
+20160816 8 84 3818963 5
+20160817 17 188 3437314 10
+20160818 13 129 15505943 8
+20160819 5 54 760479 4
+20160820 5 6 207350 5
+20160821 7 7 181888 5
+20160822 105 259 6982699 11
+20160823 81 294 13132348 14
+20160824 57 126 726873 4
+20160825 34 180 5268504 11
+20160826 81 373 11166224 15
+20160827 57 181 2604871 11
+20160828 18 103 10085339 4
+20160829 68 176 2922951 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 9
+15mn-30mn 5
+30s-2mn 21
+2mn-5mn 9
+0s-30s 208
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/webmail/ 544 10947923 23 22
+/ 263 9388534 217 166
+/price.html 52 726520 2 19
+/contact.html 52 693188 5 31
+/about.html 45 673546 9 18
+/certificate.html 36 348347 5 4
+/news.html 27 320173 1 0
+// 10 454720 0 1
+/webmail/skins/classic/watermark.html 9 2695 0 0
+/webmail/program/resources/blank.tif 6 1350 0 0
+/sitemap.xml 3 2014 1 1
+//news.html 2 37602 0 0
+/webmail/skins/larry/watermark.html 1 226 0 0
+//about.html 2 46706 0 0
+//contact.html 2 40692 0 1
+/google5da01204ced4cfd7.html 2 106 2 1
+/file/ 3 0 1 1
+//certificate.html 2 38228 0 0
+//price.html 2 38834 0 0
+END_SIDER
